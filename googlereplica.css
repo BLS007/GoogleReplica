@@ -1,0 +1,182 @@
+/* Styling effects for the content within the "Body" of the code. */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0 16px;
+}
+
+/* Styling effects for the content within the "Nav" of the code. */
+
+nav {
+    text-align: right;
+}
+
+/* Styling effects for the menu items ("Gmail" & "Images"). */
+
+.menu-item {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: -16px;
+    margin-right: 16px;
+}
+
+/* Additional styling effects for the menu items ("Gmail" & "Images"). */
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+/* Styling effects for the drop down menu. */
+
+#dropdown-menu {
+    position: relative;
+    top: -10px;
+    margin-right: 16px;
+}
+
+/* Styling effects for the profile picture. */
+
+#profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+/* Styling effects for the "section" container (Google Logo, Search Box, Voice Search Icon, "Google Search" & "I'm Feeling Lucky" Buttons). */
+
+section {
+    text-align: center;
+    padding-top: 12%;
+}
+
+/* Styling effects for the search box. */
+
+#input-wrapper {
+    position: relative;
+    width: 582px;
+    display: inline-block;
+}
+
+/* Additional styling effects for the search box. */
+
+#search-box {
+    width: 100%;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Additional styling effects for the search box. */
+
+#search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+/* Additional styling effects for the search box. */
+
+#search-box:focus {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+/* Additional styling effects for the "Voice Search Icon" within the search box. */
+
+#input-wrapper > img {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 28px;
+}
+
+/* Styling effects for the "Google Search" & "I'm Feeling Lucky" buttons. */
+
+.custom-btn {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #222;
+}
+
+/* Additional styling effects for the "Google Search" & "I'm Feeling Lucky" buttons. */
+
+.custom-btn:hover {
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+/* Additional styling effects for the "Google Search" & "I'm Feeling Lucky" buttons. */
+
+.custom-btn:first-of-type {
+    margin-right: 16px;
+}
+
+/* Styling effects for the "app-dropdown" container that holds all of the application links (Search, Maps, Drive, etc.). */
+
+#app-dropdown {
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    position: absolute;
+    right: 100px;
+    display: none;
+}
+
+/* Additional styling effects for the "app-dropdown" container that holds all of the application links (Search, Maps, Drive, etc.). */
+
+#dropdown-wrapper {
+    display: inline-block;
+}
+
+/* Additional styling effects for the "app-dropdown" container that holds all of the application links (Search, Maps, Drive, etc.). */
+
+#dropdown-wrapper:hover #app-dropdown {
+    display: block;
+}
+
+/* Styling effects for the individual application link buttons. */
+
+.app-item {
+    display: inline-block;
+    width: 84px;
+    margin-bottom: 18px;
+    padding: 8px 2px;
+    text-align: center;
+}
+
+/* Additional styling effects for the individual application link buttons. */
+
+.app-item:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Additional styling effects for the individual application link buttons. */
+
+.app-item > img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Additional styling effects for the individual application link buttons. */
+
+.app-item > p {
+    color: rgba(0,0,0,0.87);
+    margin: 0;
+    padding-top: 8px;
+}
