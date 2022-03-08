@@ -1,5 +1,5 @@
 # GoogleReplica
-## A simple webpage that displays a replica of the default Google home page. 
+## A single webpage that displays a replica of the default Google home page. 
 
 ### Home Page
 
